@@ -1,0 +1,16 @@
+package restaurant;
+
+/** Base-setting numbers from the brief, kept in one place. */
+public final class GameConfig {
+    private GameConfig() {}
+
+    public static final int MAX_TURNS = 18;
+    public static final int NUM_TABLES = 2;
+    public static final int[] ARRIVAL_TURNS = {1, 4, 7, 10, 13, 16};
+    public static final int START_SATISFACTION = 100;
+
+    // Victory targets (all three must be met)
+    public static final int MIN_PAID_CUSTOMERS = 4;
+    public static final int MIN_REVENUE_CENTS = 4500;
+    public static final int MIN_AVG_SATISFACTION = 60;
+}
