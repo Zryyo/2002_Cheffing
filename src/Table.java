@@ -1,4 +1,4 @@
-package Stage1;
+package restaurant;
 public class Table {
     private final int number;
     private Customer occupant;

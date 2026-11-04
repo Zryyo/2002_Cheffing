@@ -1,4 +1,4 @@
-package Stage1;
+package restaurant;
 
 public class Customer {
     private int satisfaction = 100;

@@ -1,4 +1,4 @@
-package Stage1;
+package restaurant;
 public abstract class Staff {
     private boolean actedThisTurn;
     public abstract String getRole();

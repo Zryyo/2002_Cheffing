@@ -1,4 +1,4 @@
-package Stage1;
+package restaurant;
 
 public enum MenuItem {
     SALAD("Salad", 900, 1),
