@@ -6,4 +6,3 @@ public interface Dish {
     int getPriceCents();
     int getUnits();
 }
-

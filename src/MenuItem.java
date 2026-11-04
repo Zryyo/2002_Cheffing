@@ -15,13 +15,7 @@ public enum MenuItem implements Dish {
         this.units = units;
     }
 
-    public String getName()      {
-         return name; 
-        }
-    public int getPriceCents()   { 
-        return priceCents; 
-        }
-    public int getUnits()        { 
-        return units;
-        }
+    public String getName()      { return name; }
+    public int getPriceCents()   { return priceCents; }
+    public int getUnits()        { return units; }
 }
