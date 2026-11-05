@@ -13,7 +13,7 @@ Requires a JDK (Java 17 or newer). From the project folder:
 
 ```
 mkdir -p out
-javac -d out src/*.java
+javac -d out src/restaurant/*.java
 java -cp out restaurant.PlayStage
 ```
 

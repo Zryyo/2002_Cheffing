@@ -8,7 +8,7 @@ Arrivals: one Regular customer at the start of turns 1, 4, 7, 10, 13, 16 (ids 1 
 ## How to run
 From the project folder:
 
-    javac -d out src/*.java
+    javac -d out src/restaurant/*.java
     java -cp out restaurant.PlayStage                      # play by hand
     java -cp out restaurant.PlayStage < tests/win_input.txt   # replay the winning run
     java -cp out restaurant.PlayStage < tests/lose_input.txt  # replay the losing run
